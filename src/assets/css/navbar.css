@@ -1,0 +1,66 @@
+.Navbar {
+  width: 95%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  /* margin-top: -3%; */
+  /* background-color: bisque;
+  height: 5vh; */
+}
+
+.Navbar-Layer1 {
+  width: 55%;
+  height: 10vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Navbar-Layer2 {
+  width: 35%;
+  height: 35px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding-right: 5%;
+}
+
+.Navbar-Eternal {
+  width: 200px;
+}
+
+.Navbar-Search {
+  width: 24px;
+  height: 24px;
+  transition: all 0.5s;
+}
+
+/* .Navbar-Search:hover {
+  opacity: 0.1;
+} */
+
+.Navbar-Login,
+.Navbar-Register {
+  cursor: pointer;
+}
+
+.Navbar-Login {
+  border: 0;
+  background-color: transparent;
+}
+
+.Navbar-Register {
+  width: 50%;
+  height: 100%;
+  border-radius: 10px;
+  border: 2px solid #a7c957;
+  background-color: transparent;
+  transition: all 0.5s;
+}
+
+/* .Navbar-Register:hover {
+  color: white;
+  background-color: #a7c957;
+} */
